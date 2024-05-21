@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App{
+    width: 800px;
+
+}
+
+.post{
+    display: flex;
+    margin-top: 15px;
+    border: 2px solid teal;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.post__btns{
+  display: flex;
+  margin: 5px;
+}
+
+.remove-btn {
+    margin-right: 0.5rem;
+  }
+
+  .post-enter {
+    transform: translateX(-350px)
+  }
+  .post-enter-active {
+    transform: translateX(0px);
+    transition: all 500ms ease-in;
+  }
+  .post-exit {
+    opacity: 1;
+  }
+  .post-exit-active {
+    transform: translateX(-350px);
+    transition: all 500ms ease-in;
+  }
+
+  .page__wrapper{
+    margin-top: 30px;
+    display: flex;
+
+  }
+
+  .page{
+    padding: 10px;
+    border: 1px solid teal;
+    cursor: pointer;
+    margin: 23px;
+    margin-top: -10px;
+    margin-left: 26px;
+  }
+
+  .page__current{
+    border: 2px solid orange;
+    font-weight: bold;
+  }
+
+.navbar{
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  background-color: lightgray;
+}
+
+.navbar__links{
+  margin-left: 10px;
+}
+
+.blockoprosa{
+  margin-top: 100px;
+  max-height: 600px;
+  width: 500px;
+  background-color: darkslategrey;
+  border-radius: 20px;
+  box-shadow: 6px 9px 20px -4px rgba(0,0,0,0.81);
+}
+
+.blockvoprosa{
+  margin: 25px;
+
+  background-color: wheat;
+  width: 450px;
+  height: 50px;
+  border-radius: 20px;
+  border: 1px solid teal;
+  box-shadow: 6px 9px 20px -4px rgba(0,0,0,0.81);
+}
+
+.blockotvetov{
+  margin: 25px;
+
+  background-color: rgb(151, 135, 104);
+  width: 450px;
+  height: 50px;
+  border-radius: 20px;
+  border: 1px solid teal;
+  box-shadow: 6px 9px 20px -4px rgba(0,0,0,0.81);
+  cursor: pointer;
+}
+
+.blockconvert{
+  margin: 25px;
+  height: 150px;
+  width: 450px;
+  background-color:white;
+}
+
+.convinp{
+  font-size: 72px;
+  height: 100px;
+  margin: 15px;
+  width: 400px;
+  border: 1px solid teal;
+}
+
+button{
+  padding: 5px 15px;
+  color: teal;
+  font-size: 14px;
+  background: transparent;
+  border: 1px solid teal;
+  cursor: pointer;
+}
+
+.active{
+  background-color: aqua;
+}
+.active{
+  background:aqua;
+}
